@@ -1,6 +1,5 @@
 # Introduction
-Cscove(new name for this plugin, since cscope.vim is used too widely.) is a
-smart cscope helper for vim.
+Cscope-helper is a smart cscope helper for vim.
 
 It will try to find a proper cscope database for current file, then connect to
 it. If there is no proper cscope database for current file, you are prompted to
@@ -15,9 +14,9 @@ used for, the plugin will connect to the cscope database automatically. You
 need not take care of anything about cscope database.
 
 When you have a file edited/added in those folders for which cscope databases
-have been created, cscove will automatically update the corresponding database.
+have been created, cscope-helper will automatically update the corresponding database.
 
-Cscove frees you from creating/connecting/updating cscope database, let you
+Cscope-helper frees you from creating/connecting/updating cscope database, let you
 focus on code browsing.
 
 # Example settings
@@ -51,4 +50,4 @@ Some optional key mappings to search directly.
 
 # Screencast
 Please note that line number changes in location list after file saved.
-![cscove.vim](https://brookhong.github.io/assets/images/cscove.gif)
+![cscope-helper.vim](https://albfan.github.io/assets/images/cscope-helper.gif)
