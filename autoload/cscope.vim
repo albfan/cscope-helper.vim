@@ -94,6 +94,7 @@ function! cscope#FlushIndex()
     call add(lines, d.'|'.g:dbs[d]['id'].'|'.g:dbs[d]['loadtimes'].'|'.g:dbs[d]['dirty'])
   endfor
   call writefile(lines, g:index_file)
+  exec 'redraw!'
 endfunction
 
 function! cscope#CheckNewFile(dir, newfile)
